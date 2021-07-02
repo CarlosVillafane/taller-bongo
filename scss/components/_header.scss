@@ -1,0 +1,15 @@
+@import '../base/fuentes';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none; /* Permite que el texto no se pueda seleccionar */
+}
+
+html{
+    font-size: 62, 5%;
+    /* 1rem pase a valer a 10px. Por defecto el navegador aplica 16px */
+}
+
+
