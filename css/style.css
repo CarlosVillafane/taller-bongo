@@ -18,7 +18,7 @@
   /* Ruta */
   src: url("https://fonts.googleapis.com/css2?family=Padauk&display=swap") format "woff";
 }
-/* 5 */
+/* 9 */
 @media screen and (max-width: 400px) {
   h1 {
     font-size: 12px;
@@ -93,8 +93,8 @@
   background-size: cover;
 }
 
-.imgStyle {
-  box-shadow: 10px 5px 5px rgba(128, 128, 128, 0.479);
-}
+/* .imgStyle {
+    box-shadow: 10px 5px 5px rgba(128, 128, 128, 0.479);
+} */
 
 /*# sourceMappingURL=style.css.map */
