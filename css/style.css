@@ -1,15 +1,3 @@
-@font-face {
-  /* Elijo mi fuente descargada */
-  font-family: "montserrat";
-  /* Ruta */
-  src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap") format "woff";
-}
-@font-face {
-  /* Elijo mi fuente descargada */
-  font-family: "Padauk", sans-serif;
-  /* Ruta */
-  src: url("https://fonts.googleapis.com/css2?family=Padauk&display=swap") format "woff";
-}
 * {
   margin: 0;
   padding: 0;
@@ -18,9 +6,95 @@
   /* Permite que el texto no se pueda seleccionar */
 }
 
-html {
-  font-size: 62, 5%;
-  /* 1rem pase a valer a 10px. Por defecto el navegador aplica 16px */
+@font-face {
+  /* Elijo mi fuente descargada */
+  font-family: "montserrat";
+  /* Ruta */
+  src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap") format "woff";
+}
+@font-face {
+  /* Elijo mi fuente descargada */
+  font-family: "padauk", sans-serif;
+  /* Ruta */
+  src: url("https://fonts.googleapis.com/css2?family=Padauk&display=swap") format "woff";
+}
+/* 5 */
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 12px;
+  }
+
+  nav {
+    background-color: #F5CAC3;
+  }
+
+  .container-fluid {
+    background-color: #D9A7E2;
+  }
+}
+/* @media screen and (min-width: 300px) and (max-width:1366px){
+    .bgLight {
+        background-color: nth($paleta, 8);
+    }
+    } */
+.textTitle {
+  font-size: 36px;
+  color: #F7EDE2;
+  font-family: "Cambria", Cochin, Georgia, Times, Times New Roman, serif;
+  text-align: right;
+  letter-spacing: 2px;
+  background-color: #84a59d69;
+  padding: 40px;
+}
+
+.listStyle:hover {
+  border-bottom: 2px #D9A7E2 solid;
+}
+
+.contain {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  letter-spacing: 1px;
+}
+
+.scrollTitle {
+  position: sticky;
+  top: 0;
+}
+
+.bcFlex {
+  padding: 110px;
+}
+
+.bgLight {
+  border-bottom: 2px black solid;
+}
+
+.bcImage {
+  width: 400px;
+  height: 200px;
+  border: 2px black solid;
+  position: relative;
+  left: 50px;
+  box-shadow: 10px 5px 5px black;
+}
+
+.flexIntro {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fondo {
+  background-image: url("https://lh3.googleusercontent.com/S-Fkeg8f0qGAFOvzw7UcqEE13XdMbTFh-mECu4AP5EVSzlyO7ddruI6PPzHRZuvz99L88ZUeotTGhjzAaWPh7sPp1rAVTyGfQCvbbKOOC-VC4Jzy5QGUGkoK1xReOAZ0MbJWWB9P30MrQjfU7XiCyVMP04fdgA4Uv02uLV5wpkOFmDwqHg4x322JAekjHVDTeEDVw_NsdUnBzjBAPG6_pSH_4sluFOtXCbvkSU0wzVtMLiHhwYT2PLiTa5Pp7U7nOFuyzNqbDrR9W13CezaiaDoGNuxvWUN1M6u1WcptOq-Fh1_pf4crzfjJ97a-5vmJ4UqdTHoHCQn1eD0oxLT8Dpjx1P33gmWM7dsaPeUWKbifAT0Ea1MYaZehrsMn6Ka3I-La_JMnNbBGqh51O3W-TLS-dpoAVJ-hvGyj5YJvA0V0x41b-_k7c6lKanpCXSOlqE-Jt5xYfk7akga137SArQLiCpoyZdU4aktOp2t2rB_ZJcSuMH5yjS6iYhA7pZeJnM9m0YYjgL_rHPyT3X2CtBrQkjvynZbsaOJRwkRdbYHvhFBjDw3-kwVbcWcKXy1RZC10KZlCdmfzIkHyySTnscax_b0g47v6Q_-cHrzLd22t--F2xXwVNioLz6awSzFQ3BxEteBAaKY34jYPD4KhS0GKIocw36Y1-unmmeLSpBzy_yMNtnH39apzzgyW5Yl1Xa8Q-pVWhAhpyQCCHxG7n88h=w937-h400-no?authuser=0");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imgStyle {
+  box-shadow: 10px 5px 5px rgba(128, 128, 128, 0.479);
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,43 @@
+@import '../base/fuentes';
+@import '../base/variables';
+@import '../base/media';
+
+.textTitle{
+    font-size: nth($encabezados, 4);
+    color:nth($paleta, 8);
+    font-family: 'montserrat', sans-serif;
+    border-bottom: 2px white solid;    
+    &:hover{
+        color: nth($paleta, 5);
+    }
+}
+
+.firstParagraph {
+    font-size: nth($encabezados, 4);
+    color:nth($paleta, 8);
+    font-family: 'montserrat', sans-serif;
+}
+
+.bcFlex{
+    background-color: nth($paleta, 9);
+    padding: 50px;    
+}
+
+.bgLight {
+    border-bottom: $border;
+}
+
+.bcImage{
+    width: 400px;
+    height: 200px;
+    border: $border-a;
+}
+
+
+
+.flexIntro {
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}

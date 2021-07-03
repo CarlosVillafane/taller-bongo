@@ -1,0 +1,18 @@
+@media screen and (max-width: 400px){
+    h1{
+        font-size: nth($encabezados , 1 );        
+    }
+    
+    nav{
+        background-color: nth($paleta , 2);
+    }
+    .container-fluid{
+        background-color: nth($paleta, 3);
+    }
+}
+
+/* @media screen and (min-width: 300px) and (max-width:1366px){
+    .bgLight {
+        background-color: nth($paleta, 8);
+    }
+    } */
