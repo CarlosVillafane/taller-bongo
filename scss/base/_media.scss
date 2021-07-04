@@ -1,4 +1,4 @@
-@media screen and (max-width: 400px){
+@media screen and (max-width: 400px) {
     h1{
         font-size: nth($encabezados , 1 );        
     }
@@ -9,6 +9,20 @@
     .container-fluid{
         background-color: nth($paleta, 3);
     }
+
+    /* .grid {
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 300px 300px 300px;
+        row-gap: 200px;
+        grid-template-areas: 
+        "imagenUno imagenDos"
+        "imagenTres imagenCuatro""imagenCinco imagenSeis";
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: column;
+    } */
 }
 
 /* @media screen and (min-width: 300px) and (max-width:1366px){

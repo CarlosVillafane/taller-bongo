@@ -12,7 +12,8 @@
 
 
 .textTitle{
-    font-size: nth($encabezados, 6);
+    font-size: nth($encabezados, 
+    6);
     color:nth($paleta, 1);
     font-family: 'Cambria', Cochin, Georgia, Times, Times New Roman, serif;    
     text-align: right;
@@ -42,7 +43,7 @@
 
 .iconUp{
     position: fixed;    
-    top: 600px;
+    top: 500px;
     left: 1300px;    
 }
 
@@ -83,4 +84,5 @@
     flex-direction: column;
     align-items: center;
     padding: 50px;
+    background-color: nth($paleta, 4 );
 }
