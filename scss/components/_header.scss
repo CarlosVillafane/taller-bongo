@@ -36,18 +36,18 @@
     
 }
 
-.scrollTitle{
+.scrollTitle {
     position: sticky;
     top: 0;
 }
 
-.iconUp{
+.iconUp {
     position: fixed;    
     top: 500px;
     left: 1300px;    
 }
 
-.bcFlex{
+.bcFlex {
     padding: 110px;    
 }
 
@@ -55,7 +55,7 @@
     border-bottom: $border;
 }
 
-.bcImage{
+.bcImage {
     width: 400px;
     height: 200px;
     border: $border-a;
@@ -84,5 +84,5 @@
     flex-direction: column;
     align-items: center;
     padding: 50px;
-    background-color: nth($paleta, 4 );
+    background-color: nth($paleta, 4);
 }
