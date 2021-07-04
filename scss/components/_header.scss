@@ -5,20 +5,25 @@
     user-select: none; /* Permite que el texto no se pueda seleccionar */
 }
 
+html{
+    -webkit-text-size-adjust: 100%;
+}
+
 @import '../base/fuentes';
 @import '../base/variables';
 @import '../base/media';
 
+.navImage {
+    width: 150px;
+}
 
-
-.textTitle{
-    font-size: nth($encabezados, 
-    6);
+.textTitle {
+    font-size: nth($encabezados,6);
     color:nth($paleta, 1);
     font-family: 'Cambria', Cochin, Georgia, Times, Times New Roman, serif;    
     text-align: right;
     letter-spacing: 2px;
-    background-color: #84a59d69;
+    background-color:nth($paleta, 5);
     padding: 40px;
 }
 
@@ -76,6 +81,7 @@
     background-image: url('https://lh3.googleusercontent.com/S-Fkeg8f0qGAFOvzw7UcqEE13XdMbTFh-mECu4AP5EVSzlyO7ddruI6PPzHRZuvz99L88ZUeotTGhjzAaWPh7sPp1rAVTyGfQCvbbKOOC-VC4Jzy5QGUGkoK1xReOAZ0MbJWWB9P30MrQjfU7XiCyVMP04fdgA4Uv02uLV5wpkOFmDwqHg4x322JAekjHVDTeEDVw_NsdUnBzjBAPG6_pSH_4sluFOtXCbvkSU0wzVtMLiHhwYT2PLiTa5Pp7U7nOFuyzNqbDrR9W13CezaiaDoGNuxvWUN1M6u1WcptOq-Fh1_pf4crzfjJ97a-5vmJ4UqdTHoHCQn1eD0oxLT8Dpjx1P33gmWM7dsaPeUWKbifAT0Ea1MYaZehrsMn6Ka3I-La_JMnNbBGqh51O3W-TLS-dpoAVJ-hvGyj5YJvA0V0x41b-_k7c6lKanpCXSOlqE-Jt5xYfk7akga137SArQLiCpoyZdU4aktOp2t2rB_ZJcSuMH5yjS6iYhA7pZeJnM9m0YYjgL_rHPyT3X2CtBrQkjvynZbsaOJRwkRdbYHvhFBjDw3-kwVbcWcKXy1RZC10KZlCdmfzIkHyySTnscax_b0g47v6Q_-cHrzLd22t--F2xXwVNioLz6awSzFQ3BxEteBAaKY34jYPD4KhS0GKIocw36Y1-unmmeLSpBzy_yMNtnH39apzzgyW5Yl1Xa8Q-pVWhAhpyQCCHxG7n88h=w937-h400-no?authuser=0');
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0 auto;
 }
 
 .flexTitle {
@@ -84,5 +90,5 @@
     flex-direction: column;
     align-items: center;
     padding: 50px;
-    background-color: nth($paleta, 4);
+    background-color: nth($paleta, 1);
 }

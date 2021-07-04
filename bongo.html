@@ -39,8 +39,7 @@
       </nav>
       <!-- Section One -->
       <section class="fondo">
-        <div class="container light">
-            <div>
+        <div class="container">
               <div class="row bcFlex">
                   <div class="col-12 col-md-6 flexIntro">
                     <a name="nuestrotaller"><h1 class="textTitle"><strong>Bongo</strong> se dedica al diseño y elaboración de marcos artesanales, hechos a medida. Elegimos cuidadosamente los materiales para crear productos de calidad y belleza.</h1></a>
@@ -49,7 +48,6 @@
                       <a href="bongo.html"><img src="imagenes/uptoup.png" alt="Subir a inicio Taller Bongo" class="iconUp"></a>
                   </div>
               </div>
-            </div>
           </div>
       </section>
     <!-- Final Section One -->
@@ -60,7 +58,7 @@
         Te mostramos las diferentes técnicas que empleamos a nuestros cuadros. Si quieres saber más,  
       </p>
     </div>
-      <section class="grid col-12 col-md-12 bg-dark m-4 p-5">        
+      <section class="grid col-12 col-md-12">        
         <div class="image-1">
             <img src="imagenes/tecnica_dorado.png"alt="Técnica Dorado de Hoja Taller Bongo" class="imgFrame">
             <p class="textDescription">
@@ -79,59 +77,58 @@
             </p>
         </div>
         <div class="image-4">
-          <img src="imagenes/shadow_box.png" alt="Técnica Shadow Box Taller Bongo" class="imgFrame-1">
-          <p class="textDescription-1">
+          <img src="imagenes/shadow_box.png" alt="Técnica Shadow Box Taller Bongo" class="imgFrame">
+          <p class="textDescription">
             🔹 Un clásico 😎 👉 En este tipo de enmarcado la obra queda bajo una ventana de passepartout. Es especialmente recomendada para fotografías 📷 Nos permite adaptar, de una forma súper elegante, lo que deseamos enmarcar a cualquier tamaño ✏📏
           </p>
         </div>
         <div class="image-5">
-          <img src="imagenes/floating.png" alt="Técnica Floating Taller Bongo" class="imgFrame-1">
-          <p class="textDescription-1">
+          <img src="imagenes/floating.png" alt="Técnica Floating Taller Bongo" class="imgFrame">
+          <p class="textDescription">
             ✓ Este tipo de técnica recibe su nombre porque la obra o pieza enmarcada aparece "flotando" a 10mm o 5mm, según convenga estéticamente. Permite la completa visualización hasta los bordes de la obra, generando un juego de sombras original al enmarcado 💠
           </p>
         </div>
         <div class="image-6">
-          <img src="imagenes/doble_vidrio.png" alt="Técnica Doble Vidrio Taller Bongo" class="imgFrame-1">
-          <p class="textDescription-1">
+          <img src="imagenes/doble_vidrio.png" alt="Técnica Doble Vidrio Taller Bongo" class="imgFrame">
+          <p class="textDescription">
             ▶Moderno y elegante👌El doble vidrio permite ver en detalle toda la obra y nos invita a jugar con las texturas de la pieza enmarcada y el fondo ✨</p>
         </div>
       </section>
     <!-- Final Section Tipos de marcos -->
-    <!-- Section Nuestros Marcos -->
-      <section>
-        <div class="sectionFrame">
-            <a name="galeria"><h2>Nuestros Marcos</h2>
-            </a>
-            <p>
-                Nuestros marcos están propuestos para resguardar tu imagen ante las condiciones medioambientales a las que se exponen.
-            </p>
-            <p>
-              Todos los cuadros han sido producciones para nuestrxs clientes. 
-            </p>
+    <!-- Section Nuestros Marcos Carrusel-->
+    <div class="bcSection">
+      <div class="sectionFrame">
+        <a name="galeria"><h2>Nuestros Marcos</h2>
+        </a>
+        <p>
+            Nuestros marcos están propuestos para resguardar tu imagen ante las condiciones medioambientales a las que se exponen.
+        </p>
+        <p>
+          Todos los cuadros han sido producciones para nuestrxs clientes. 
+        </p>
+      </div>
+    </div>
+    <div id="carouselWithInterval" class="carousel slide" data-bs-ride="carousel m-4 p-4">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="imagenes/exhala_400.png" class="d-block w-50" alt="Slide 1">
         </div>
-        <div class="imgFlexbox">
-            <div class="imgContainer">
-                <a href=""><img src="imagenes/inhala_400px.png" alt="Taller Bongo Cuadro Inhala"></a>                
-            </div>
-        <!-- <div class="imgContainer">
-                <a href=""><img src="imagenes/respira.png" class="imgAnimate"></a>
-            </div>
-            <div class="imgContainer">
-                <a href=""><img src="imagenes/exhala_400.png" alt="Taller Bongo Cuadro Exhala"></a>
-            </div>
-        </div>        
-        <div class="imgFlexbox">
-            <div class="imgContainer">
-                <a href=""><img src="imagenes/inhala_400px.png" alt="Taller Bongo Cuadro Inhala"></a>
-            </div>
-            <div class="imgContainer">
-                <a href=""><img src="imagenes/respira.png" class="imgAnimate"></a>
-            </div>
-            <div class="imgContainer">
-                <a href=""><img src="imagenes/exhala_400.png" alt="Taller Bongo Cuadro Exhala"></a>
-            </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="imagenes/respira.png" class="d-block w-50" alt="Slide 2">
         </div>
-    </section> -->
+        <div class="carousel-item">
+          <img src="imagenes/inhala_400px.png" class="d-block w-50" alt="Slide 3">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselWithInterval" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselWithInterval" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
     <!-- Bootstrap Separate -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
