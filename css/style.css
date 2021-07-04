@@ -63,6 +63,12 @@
   top: 0;
 }
 
+.iconUp {
+  position: fixed;
+  top: 600px;
+  left: 1300px;
+}
+
 .bcFlex {
   padding: 110px;
 }
@@ -93,9 +99,14 @@
   background-size: cover;
 }
 
-/* .imgStyle {
-    box-shadow: 10px 5px 5px rgba(128, 128, 128, 0.479);
-} */
+.flexTitle {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
 @font-face {
   /* Elijo mi fuente descargada */
   font-family: "montserrat";
@@ -141,6 +152,81 @@
   transform: scale(1.1);
   opacity: 0.5;
   text-decoration: rgba(196, 39, 39, 0.253);
+}
+
+.grid {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 300px 300px;
+  row-gap: 200px;
+  grid-template-areas: "imagenUno imagenDos imagenTres" "imagenCuatro imagenCinco imagenSeis";
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.image-1 {
+  background-color: #696161;
+  border-radius: 20px;
+  color: #ffffff;
+  margin-top: 0;
+  grid-area: imagenUno;
+  padding-bottom: 100px;
+}
+
+.image-2 {
+  margin-top: 0;
+  grid-area: imagenDos;
+  padding-bottom: 100px;
+}
+
+.image-3 {
+  margin-top: 0;
+  grid-area: imagenTres;
+  padding-bottom: 100px;
+}
+
+.image-4 {
+  margin-top: 0;
+  grid-area: imagenCuatro;
+  padding-bottom: 100px;
+}
+
+.image-5 {
+  margin-top: 0;
+  grid-area: imagenCinco;
+  padding-bottom: 100px;
+}
+
+.image-6 {
+  margin-top: 0;
+  grid-area: imagenSeis;
+  padding-bottom: 100px;
+}
+
+.textDescription {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+  font-family: "montserrat", sans-serif;
+  font-size: 14px;
+  padding: 4px;
+}
+
+.imgFrame {
+  position: absolute;
+  z-index: 1;
+  transition-property: all;
+  transition-duration: 1s;
+}
+.imgFrame:hover {
+  transform: translateY(145px);
+}
+
+.sectionFrame {
+  margin-top: 500px;
 }
 
 /*# sourceMappingURL=style.css.map */

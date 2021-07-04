@@ -20,3 +20,80 @@
     }
     
 }
+
+.grid {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: $gridColumns;
+    grid-template-rows: $gridRows;
+    row-gap: 200px;
+    grid-template-areas: 
+    "imagenUno imagenDos imagenTres"
+    "imagenCuatro imagenCinco imagenSeis";
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.image-1 {
+    background-color: nth($paleta, 7);
+    border-radius: 20px;
+    color: nth($paleta, $n: 8);
+    margin-top: $mtop;
+    grid-area: imagenUno;
+    padding-bottom: $padding-b;
+}
+
+.image-2 {
+    margin-top: $mtop;
+    grid-area: imagenDos;
+    padding-bottom: $padding-b;
+}
+
+.image-3 {
+    margin-top: $mtop;
+    grid-area: imagenTres;
+    padding-bottom: $padding-b;
+}
+
+.image-4 {
+    margin-top: $mtop;
+    grid-area: imagenCuatro;
+    padding-bottom: $padding-b;
+}
+
+.image-5 {
+    margin-top: $mtop;
+    grid-area: imagenCinco;
+    padding-bottom: $padding-b;
+}
+
+.image-6 {
+    margin-top: $mtop;
+    grid-area: imagenSeis;
+    padding-bottom: $padding-b;
+}
+
+.textDescription {
+    display:flex;
+    justify-content:space-around;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+    font-size: nth($encabezados, 2);
+    padding: $padding;
+}
+
+.imgFrame {
+    position:absolute;
+    z-index: 1;
+    transition-property: all;
+    transition-duration: 1s;
+    &:hover{
+        transform: translateY(145px);
+    }
+}
+
+.sectionFrame {
+    margin-top: 500px;
+}
