@@ -1,0 +1,19 @@
+@import '../base/fuentes';
+@import '../base/variables';
+@import '../base/media';
+
+
+.footerArea{
+    padding: 50px;
+    background-color: nth($paleta, 2); 
+}
+
+.footerMedia{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.icon{
+    width: 50px;
+}
