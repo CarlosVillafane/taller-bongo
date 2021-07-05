@@ -51,14 +51,13 @@ html{
     width: 150px;
 }
 
-#logo1 {
+#logo1 .navImage{
     transition-property: all;
     transition-duration: 3s;
     &:hover {
         transform: translate(1.5);
     }
 }
-
 
 
 .textTitle {
