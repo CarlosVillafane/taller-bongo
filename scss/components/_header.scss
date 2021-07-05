@@ -36,7 +36,7 @@ html{
 .contain {
     display: flex;
     justify-content: flex-end;
-    padding-right: 20px;
+    padding-right: 150px;
     letter-spacing: 1px;
     
 }
@@ -84,11 +84,3 @@ html{
     margin: 0 auto;
 }
 
-.flexTitle {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px;
-    background-color: nth($paleta, 1);
-}
