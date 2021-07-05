@@ -159,24 +159,26 @@
   </div>
 </div>
 <!-- Formulario -->
+
 <section class="formulario bcForm">
-  <a name="contactanos"><h2>Solicitá Presupesto</h2></a>
+  <a name="contactanos"><h2>Solicitá tu Presupesto</h2></a>
   <form action="enviar.php" method="POST">
     <label for="name">Nombre:</label>
-    <input type="text" name="name" id="name" placeholder="Name" />
-
+    <input 
+      type="text"
+      name="name"
+      id="name"
+      placeholder="Name"
+      />
     <br />
-
-    <label for="surname">Apellido:</label>
+    <!-- <label for="surname">Apellido:</label>
     <input
         type="text"
         name="surname"
         id="surname"
         placeholder="Surname"
       />
-
-    <br />
-
+    <br /> -->
     <label for="email">E-mail:</label>
     <input
         type="email"
@@ -184,42 +186,18 @@
         id="email"
         placeholder="example@example.com"
       />
-
     <br />
-
-    <label for="marital-status">Estado civil:</label>
-    <select name="maritalstatus" id="marital-status">
-        <option value="single">Soltera/o</option>
-        <option value="married">Casada/o</option>
-    </select>
-
-    <br />
-
-    <fieldset>
-      <legend for="gender">Selecciona tu género:</legend>
-      <input type="radio" name="gender" id="gender" value="male" />Hombre
-      <input type="radio" name="gender" id="gender" value="female" />Mujer
-    </fieldset>
-
-    
-
     <textarea
         name="comments"
-        id=""
+        id="comments"
         cols="30"
         rows="10"
-        placeholder="Deje aquí un comentario..."
+        placeholder="Contanos lo que quieres..."
       ></textarea>
-
     <br />
     <!-- OPCION 1 -->
     <input type="reset" value="Borrar" />
     <input type="submit" value="Enviar" />
-
-    <br />
-    <!-- OPCION 2 -->
-    <button type="reset">Borrar</button>
-    <button type="submit">Enviar</button>
   </form>
 </section>
     <!-- Bootstrap Separate -->
