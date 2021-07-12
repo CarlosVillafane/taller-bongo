@@ -1,6 +1,6 @@
 @font-face{
     /* Elijo mi fuente descargada */
-    font-family: 'montserrat';
+    font-family: 'montserrat', sans-serif;
     /* Ruta */
     src:url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap') format ('woff');
 }
@@ -11,3 +11,9 @@
     /* Ruta */
     src:url('https://fonts.googleapis.com/css2?family=Padauk&display=swap') format ('woff');
 }
+
+@font-face{
+    font-family: 'roboto', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+}
+

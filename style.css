@@ -106,6 +106,11 @@ html {
   letter-spacing: 1px;
 }
 
+.scrollTitle {
+  position: sticky;
+  top: 0;
+}
+
 .iconUp {
   position: fixed;
   top: 500px;
@@ -342,14 +347,6 @@ h2 {
   font-family: "montserrat", sans-serif;
   font-size: 20px;
   padding-bottom: 20px;
-}
-
-.form {
-  background-color: black;
-}
-
-.nombres {
-  color: #F7EDE2;
 }
 
 @font-face {
