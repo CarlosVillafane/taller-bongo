@@ -27,12 +27,13 @@ html {
   font-family: "roboto", sans-serif;
   src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
 }
-/* 10 */
+
 @media (max-width: 861px) {
   .grid {
     display: none;
   }
 }
+
 @media (max-width: 860px) {
   .cardImage {
     display: initial;
@@ -79,7 +80,7 @@ html {
 }
 
 .navImage {
-  width: 150px;
+  width: 10em;
 }
 
 #logo1 .navImage {
