@@ -1,9 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
+    <<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Limita a las personas que no pueda hacer zoom -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    
+    <!-- Meta Etiquetas -->
+    <meta name="description" content="Nuestro taller está creado con fines artísticos, ofreciendo el servicios a artistas a enmarcar sus obras individuales o colectivas y también nos preparamos para realizar muestras">
+    <meta name="keywords" content="Cuadros, Taller de Marcos, Diseño de Marcos, Técnicas de cuadros, Muestras de Cuadros">
+
+    <!-- Protocolo Open Graph -->
+    <meta property="og:title" content="Hacemos lo que nos gusta porque sabemos lo que quieres y lo que buscas">
+    <meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ27MzSu4lImNhdOtolVLi7UDIKP3pCDyDC5gv66LOD0Gj5ctrmqWJBtOZy31ncBF2TpDQ&usqp=CAU">
+    <meta property="og:author" content="Carlos Villafañe">
+    <meta property="og:description" content="Desarrollamos cuadros a medida, usando las mejores técnicas y herramientas biosustentables contribuyendo con el arte y el medio ambiente">
     <title>Taller Bongo: haciendo marcos a medida</title>
 
     <!-- CSS -->
@@ -210,50 +221,44 @@
   </div>
 </div> -->
 <!-- Formulario -->
-
 <section class="formulario bcForm">
-  <a name="contactanos"><p>Solicitá tu Presupesto</p></a>
-  <div class="bg-dark">
-    <form action="enviar.php" method="POST">
-      <label for="name" class="nombres">Nombre:</label>
-      <input 
-        type="text"
-        name="name"
-        id="name"
-        placeholder="Name"
-        />
-      <br />
-      <!-- <label for="surname">Apellido:</label>
-      <input
+    <div>
+      <form action="enviar.php" method="POST" class="flexForm ">
+        <a name="contactanos" class="paragraphForm"><p>Solicitá tu Presupesto</p></a>
+        <label for="name">Nombre:</label>
+        <input 
           type="text"
-          name="surname"
-          id="surname"
-          placeholder="Surname"
+          name="name"
+          id="name"
+          placeholder="Name"
         />
-      <br /> -->
-      <label for="email">E-mail:</label>
-      <input
-          type="email"
-          name="email"
-          id="email"
-          placeholder="example@example.com"
-        />
-      <br />
-      <textarea
-          name="comments"
-          id="comments"
-          cols="30"
-          rows="10"
-          placeholder="Contanos lo que quieres..."
-        ></textarea>
-      <br />
-      <!-- OPCION 1 -->
-      <input type="reset" value="Borrar" />
-      <input type="submit" value="Enviar" />
-    </form>
-  </section>  
-  </div>
-  
+        <!-- <label for="surname">Apellido:</label>
+        <input
+            type="text"
+            name="surname"
+            id="surname"
+            placeholder="Surname"
+          />
+        <br /> -->
+        <label for="email">E-mail:</label>
+        <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="example@example.com"
+          />
+        <textarea
+            name="comments"
+            id="comments"
+            cols="30"
+            rows="10"
+            placeholder="Contanos lo que quieres..."
+          ></textarea>
+        <!-- OPCION 1 -->
+        <!-- <input type="reset" value="Borrar" /> -->
+        <input type="submit" value="Enviar" />
+      </form>
+    </section>
 <!-- Footer -->
 <section class="footerArea" >
     <div class="footerMedia">
