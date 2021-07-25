@@ -4,7 +4,7 @@
 
 h2{
     font-family: 'anton', sans-serif;
-    font-size: nth($encabezados, 3);
+    font-size: nth($encabezados, 4);
 }
 
 .textPrincipal {
@@ -151,6 +151,3 @@ h2{
     background-color: nth($paleta, 1);
 }
 
-.carouselProp {
-    width: 25%;    
-}
